@@ -1,0 +1,99 @@
+table {
+    width: 100%;
+    border: 1px solid #e3e4e8;
+    color: #000000;
+    border-radius: 4px;
+}
+table thead {
+    height: 65px;
+    text-align: left;
+}
+table tr {
+    height: 73px;
+    border-bottom: 1px solid #f1f2f3;
+}
+table th {
+    color: #767b8a;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f2f3;
+    padding: 0 24px;
+}
+
+table tbody tr td {
+    padding: 0 24px;
+}
+
+table button {
+    background: transparent;
+}
+
+.user-thumbnail {
+    border-radius: 50%;
+}
+
+.creator-thumbnail {
+    padding-right: 4px;
+}
+
+.view-all-btn {
+    background: transparent;
+}
+.card-title {
+    color: #000000;
+    font-size: 17px;
+}
+
+.card-title span {
+    color: #767b8a;
+    font-size: 15px;
+}
+
+.post-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.thumbnail img {
+    border-radius: 4px;
+}
+
+.reactions {
+    color: #767b8a;
+    font-size: 13px;
+}
+
+.reactions ul li {
+    padding-right: 10px;
+}
+
+.post-card .thumbnail {
+    position: relative;
+}
+
+.post-card .thumbnail .card-user {
+    position: absolute;
+    bottom: 40px;
+}
+
+.view-modal {
+    background-color: #0000009e;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 840px;
+    border-radius: 8px;
+    background: #f9fafa;
+    z-index: 10;
+    position: absolute;
+    top: 20em;
+    left: 30em;
+    min-height: 450px;
+}

@@ -1,0 +1,10 @@
+.sign-in-btn {
+    background: transparent;
+}
+.toolbar {
+    height: 66px;
+    background: #f1f2f3;
+    border: 1px solid #f1f2f3;
+    padding-left: 8em;
+    padding-right: 8em;
+}

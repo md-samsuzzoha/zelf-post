@@ -1,0 +1,15 @@
+.footer {
+    height: 66px;
+    background: #f1f2f3;
+    border: 1px solid #f1f2f3;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.footer .menu ul li {
+    padding-right: 60px;
+}
+.social ul li a {
+    padding-right: 10px;
+}
